@@ -9,12 +9,12 @@
 		<link href="assets/css/style.css" type="text/css" rel="stylesheet">
 	</head>
 	<body>
-		<!--search icon-->
-		<div class="modal" tabindex="-1" role="dialog">
-  			<div class="modal-dialog" role="document">
+		<!--modal-->
+		<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  			<div class="modal-dialog modal-dialog-centered" role="document">
     			<div class="modal-content">
       				<div class="modal-body">
-        				<input type="text" class="searchBox">
+        				<input type="text" class="searchBox" placeholder="Search...">
       				</div>
     			</div>
   			</div>
@@ -107,7 +107,7 @@
 						</div>
 						<div class="person">
 							<div class="personImg float-left">
-								<img src="assets/img/john.png">
+								<img src="assets/img/John.png">
 							</div>
 							<div class="personDesc float-left">
 							<span>John Doe</span>
@@ -147,7 +147,7 @@
 						</div>
 						<div class="person">
 							<div class="personImg float-left">
-								<img src="assets/img/john.png">
+								<img src="assets/img/John.png">
 							</div>
 							<div class="personDesc float-left">
 							<span>John Doe</span>
@@ -185,7 +185,7 @@
 						</div>
 					</div>
 					<div class="col iphone">
-						<img src="assets/img/iphone.png" alt="iphone">
+						<img src="assets/img/HeyU.png" class="img-fluid" alt="iphone">
 					</div>
 					<div class="col align-self-center">
 						<div class="media">
@@ -216,7 +216,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col iphone">
-						<img src="assets/img/iphone.png" alt="iphone">
+						<img src="assets/img/HeyU.png" class="img-fluid" alt="iphone">
 					</div>
 					<div class="col align-self-center">
 						<div class="media">
@@ -263,12 +263,12 @@
 		<!--subscribtion section starts-->
 		<div class="subscribtion">
 			<div class="container">
+				<h2 class="mb-5">Subscribe to our newsletter<span class="red">.</span></h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
 				<div class="row">
-					<div class="col">
-						<h2 class="mb-5">Subscribe to our newsletter<span class="red">.</span></h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
+					<div class="col-lg-8 offset-lg-2 col-md-12">
 						<form class="form-group">
-							<input type="text" placeholder="Your email address">
+							<input type="text" class="form-control" placeholder="Your email address">
 							<input type="submit" value="Subscribe">
 						</form>
 					</div>
@@ -291,9 +291,9 @@
 		</div>
 		<!--download section ends-->
 		<!--footer section starts-->
-		<div class="footer">
+		<div class="footer container-fluid">
 			<div class="row">
-				<div class="col">
+				<div class="col col-md-9">
 					<nav class="nav">                                                        
 		  				<a class="nav-link" href="#">ABOUT</a>
 		  				<a class="nav-link" href="#">FAQ</a>
@@ -302,7 +302,7 @@
 		  				<a class="nav-link" href="#">DOWNLOAD</a>
 					</nav>
 				</div>
-				<div class="col align-self-center ">
+				<div class="col col-md-3 align-self-center ">
 					<select class="custom-select language float-right" id="inputGroupSelect01">
     					<option selected>ENGLISH</option>
     					<option value="1">ARABIC</option>

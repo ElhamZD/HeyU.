@@ -12,24 +12,28 @@ body{
 	border-radius:23px;
 	position:fixed;
 	color:white;
-	bottom: 30px;
+	bottom: 68px;
   	right: 30px;
-  	transition: background-color .3s;
+  	transition-duration: .4s;
   	text-align:center;
   	z-index:1;
   	opacity:.5;
-}
-#topBtn i{
-	font-size:30px;
-	line-height:45px;
+  	line-height:50px;
+  	font-size:23px;
 }
 #topBtn:hover{
 	cursor:pointer;
 	opacity:1;
+	transition-duration: .4s;
+	line-height:35px;
 }
-/*search box style*/
+/*modal style*/
 .searchBox{
 	width:100%;
+}
+.modal-content{
+	background:none;
+	border:0;
 }
 /*navbar style*/
 .navbar-light .navbar-nav .nav-link{
@@ -122,7 +126,7 @@ p{
 	height:auto;
 	border:1px solid #e0e0e0;
 	padding:30px;
-	/*max-height:210px;*/
+	max-height:210px;*/
 	font-size:18px;
 	transition-duration: 0.4s;
 }
@@ -199,7 +203,7 @@ p{
 .redSection{
 	width:100%;
 	background:linear-gradient(to bottom,#da0945,#eb3f2d);
-	height:579px;
+	height:519px;
 	margin-top:85px;
 	margin-bottom:225px;
 	color:white;
@@ -210,13 +214,11 @@ p{
 }
 .media-body h5{
 	font-size:24px;
-	font-weight:bold;
-	
+	font-weight:bold;	
 }
 .media-body p{
 	font-size:16px;
 	color:white;
-	
 }
 .rtl .media-body{
 	text-align:right;
@@ -226,36 +228,38 @@ p{
 }
 .redSection .iphone img{
 	position:absolute;
-	top:-110px;
-	right:-32px;
+	top:-100px;
 }
-
 /*subscribtion style*/
 .subscribtion{
 	width:100%;
 	border-bottom:1px solid #e0e0e0;
 	text-align:center;
 	padding-bottom:140px;
-	position:relative;
 }
 form{
 	padding-top:70px;
+	position:relative;
 }
 [type="text"]{
 	border-radius:50px;
 	background:#f8f8f8;
 	border:0;
 	padding:17px 215px 17px 30px;
+	height:45px;
 }
 [type="submit"]{
 	background:linear-gradient(to bottom,#da0945,#eb3f2d);
 	border-radius:50px;
 	border:0;
-	padding:20px 50px;
 	color:white;
 	position:absolute;
-	top:228px;
-	left:768px;
+	top:70px;
+	right:0px;
+	font-size: 18px;
+	padding-right: 55px;
+	padding-left: 55px;
+	height: 45px;
 }
 /*download style*/
 .download{
@@ -268,7 +272,6 @@ form{
 .footer{
 	width:100%;
 	color:#363636;
-	overflow-x:hidden;
 }
 .footer .nav a{
 	color:#363636;
@@ -281,7 +284,7 @@ form{
 .language{
 	background:#f8f8f8;
 	border-radius:50px;
-	width:200px;
+	/*width:200px;*/
 	text-align:center;
 	font-size:18px;
 	border:0;
