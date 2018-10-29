@@ -134,7 +134,7 @@ p{
 	color: #808080;
     font-style: italic;
 	height:auto;
-	/*max-height:115px;*/
+	max-height:115px;
 	overflow:hidden;
 }
 .testmonial .red{
@@ -284,7 +284,6 @@ form{
 .language{
 	background:#f8f8f8;
 	border-radius:50px;
-	/*width:200px;*/
 	text-align:center;
 	font-size:18px;
 	border:0;
